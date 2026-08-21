@@ -1,0 +1,15 @@
+=== Как добавить настоящий EXE ===
+
+1. Собери / возьми готовый .exe файл ClassMate для Windows.
+2. Зайди в репозиторий:
+   https://github.com/temuribragimov2018-arch/classmate.apk/releases
+3. Создай новый релиз (или отредактируй v1.0.1) и загрузи файл, например:
+   ClassMate-Windows.exe
+4. Скопируй прямую ссылку на файл (кнопка правой кнопкой мыши → Copy link address).
+   Формат:
+   https://github.com/temuribragimov2018-arch/classmate.apk/releases/download/v1.0.1/ClassMate-Windows.exe
+5. Открой config.js на сайте и замени значение exeUrl на эту ссылку.
+6. Задеплой сайт заново.
+
+Пока в config.js стоит placeholder-ссылка. При нажатии кнопки «Скачать EXE»
+GitHub вернёт 404, пока файл не будет загружен в Releases.
